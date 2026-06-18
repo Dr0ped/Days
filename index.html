@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raphian14 — Coordinador & Manager · Portfolio</title>
+  <meta name="description" content="Portfolio profesional de Raphian14, Coordinador y Manager con amplia experiencia en servidores Minecraft." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- BG -->
+  <div class="bg-gif"></div>
+  <div class="bg-overlay"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="https://s.namemc.com/2d/skin/face.png?id=fdbacaa81518c101&scale=4" alt="Skin" class="nav-skin" />
+      <span>Raphian14</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link">Inicio</a></li>
+      <li><a href="#about" class="nav-link">Sobre mí</a></li>
+      <li><a href="#skills" class="nav-link">Habilidades</a></li>
+      <li><a href="#servers" class="nav-link">Experiencia</a></li>
+      <li><a href="#stats" class="nav-link">Estadísticas</a></li>
+      <li><a href="#contact" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-left">
+        <p class="hero-eyebrow">
+          <span class="pulse-dot"></span> Portfolio Profesional · Minecraft 2025
+        </p>
+        <h1 class="hero-name">
+          Raphian<span class="accent">14</span>
+        </h1>
+        <div class="hero-roles">
+          <span class="role-chip">Coordinador</span>
+          <span class="role-sep">·</span>
+          <span class="role-chip">Manager</span>
+          <span class="role-sep">·</span>
+          <span class="role-chip">Owner</span>
+        </div>
+        <p class="hero-desc">
+          Profesional de la gestión de servidores Minecraft con una trayectoria consolidada en más de 11 proyectos de la comunidad hispanohablante. Especializado en liderazgo de equipos de staff, coordinación operativa, gestión de comunidades y desarrollo estratégico. Con experiencia que va desde roles de Soporte hasta Owner y Coordinador, aporto visión organizacional, disciplina y compromiso total en cada proyecto.
+        </p>
+        <div class="hero-tags">
+          <span class="htag">🎮 Minecraft</span>
+          <span class="htag">👥 Staff Leadership</span>
+          <span class="htag">📋 Coordinación</span>
+          <span class="htag">🚀 11+ Proyectos</span>
+        </div>
+        <div class="hero-ctas">
+          <a href="#servers" class="btn-primary">Ver Experiencia</a>
+          <a href="#contact" class="btn-secondary">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="skin-container">
+          <div class="skin-ring r1"></div>
+          <div class="skin-ring r2"></div>
+          <div class="skin-ring r3"></div>
+          <img src="https://s.namemc.com/2d/skin/face.png?id=fdbacaa81518c101&scale=4" alt="Skin de Raphian14" class="skin-main" />
+          <div class="skin-badge">⭐ Activo</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">▼ Desliza hacia abajo</div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-left">
+          <p class="eyebrow-sm">Quién soy</p>
+          <h2 class="section-title">Sobre mí</h2>
+          <p class="about-bio">
+            Soy <strong>Raphian14</strong>, un apasionado de la gestión y administración de comunidades en Minecraft. Comencé mi camino en el mundo del staff desde los puestos más básicos, aprendiendo cada aspecto del funcionamiento de un servidor: desde la atención directa al jugador hasta la toma de decisiones estratégicas como Owner y Coordinador general.
+          </p>
+          <p class="about-bio">
+            A lo largo de mi trayectoria he participado en más de <strong>11 proyectos diferentes</strong>, lo que me ha dado una perspectiva única sobre cómo construir, mantener y escalar comunidades exitosas. Cada experiencia me ha enseñado algo nuevo: la importancia de la comunicación interna, la gestión de conflictos en equipos de staff, el equilibrio entre firmeza y empatía al tratar con los jugadores, y la planificación a largo plazo de un servidor.
+          </p>
+          <p class="about-bio">
+            Mi filosofía es simple: un servidor exitoso no se construye solo con buenos plugins o un buen mapa — se construye con un equipo unido, procesos claros, y líderes que estén dispuestos a escuchar tanto a su staff como a su comunidad. Eso es exactamente lo que traigo a cada proyecto.
+          </p>
+          <div class="about-stats-row">
+            <div class="astat">
+              <div class="astat-num" data-target="11">0</div>
+              <div class="astat-label">Servidores</div>
+            </div>
+            <div class="astat">
+              <div class="astat-num" data-target="2">0</div>
+              <div class="astat-label">Activos</div>
+            </div>
+            <div class="astat">
+              <div class="astat-num" data-target="5">0</div>
+              <div class="astat-label">Roles de liderazgo</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-cards">
+            <div class="acard">
+              <div class="acard-icon">⚔️</div>
+              <h3>Experiencia Sólida</h3>
+              <p>Desde Soporte y Trial Mod hasta Coordinador y Owner, he recorrido toda la jerarquía. Cada escalón me dio herramientas únicas para entender el ecosistema completo de un servidor Minecraft.</p>
+            </div>
+            <div class="acard">
+              <div class="acard-icon">🛡️</div>
+              <h3>Liderazgo de Equipos</h3>
+              <p>He dirigido equipos de distintos tamaños, coordinando moderadores, admins y helpers. Mi enfoque se basa en la claridad de roles, la comunicación constante y el reconocimiento del trabajo bien hecho.</p>
+            </div>
+            <div class="acard">
+              <div class="acard-icon">🌐</div>
+              <h3>Gestión Operativa</h3>
+              <p>Como Manager he supervisado configuraciones de plugins, políticas internas, procesos de selección de staff, gestión de canales y mantenimiento de la calidad del servicio al jugador.</p>
+            </div>
+            <div class="acard">
+              <div class="acard-icon">📈</div>
+              <h3>Aprendizaje Constante</h3>
+              <p>Cada servidor retirado es una lección. Mi historial refleja no solo los éxitos, sino la capacidad de adaptarme, evolucionar y aplicar cada experiencia con mayor madurez en el siguiente proyecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="eyebrow-sm center">Lo que hago</p>
+      <h2 class="section-title center">Habilidades &amp; Competencias</h2>
+      <p class="section-sub">Capacidades desarrolladas a lo largo de años de experiencia en administración de comunidades Minecraft</p>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">🎯</span>
+            <h3>Coordinación de Staff</h3>
+          </div>
+          <p>Organización y supervisión de equipos de moderación. Asignación de responsabilidades, seguimiento de rendimiento individual, resolución de conflictos internos y mantenimiento de la cultura del equipo.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            <span class="skill-pct">95%</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">⚙️</span>
+            <h3>Administración Técnica</h3>
+          </div>
+          <p>Configuración de plugins esenciales, gestión de permisos con sistemas como LuckPerms, implementación de rangos, monitoreo de rendimiento y mantenimiento general de la infraestructura del servidor.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            <span class="skill-pct">82%</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">🤝</span>
+            <h3>Relaciones con Jugadores</h3>
+          </div>
+          <p>Gestión de sistemas de tickets y reportes, atención personalizada de quejas, mediación en conflictos entre jugadores, implementación de normas comunitarias y fomento de un ambiente positivo y sano.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+            <span class="skill-pct">93%</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">📋</span>
+            <h3>Planificación Estratégica</h3>
+          </div>
+          <p>Desarrollo de planes de crecimiento, creación de roadmaps de contenido, diseño de eventos especiales, construcción de estructuras organizacionales escalables y toma de decisiones a largo plazo.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            <span class="skill-pct">80%</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">🔍</span>
+            <h3>Selección de Staff</h3>
+          </div>
+          <p>Diseño de procesos de postulación y entrevistas, evaluación de candidatos, implementación de períodos de prueba estructurados y onboarding completo de nuevos miembros al equipo de trabajo.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            <span class="skill-pct">88%</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-top">
+            <span class="sk-icon">💬</span>
+            <h3>Comunicación Interna</h3>
+          </div>
+          <p>Gestión de canales internos de staff en Discord, redacción de reglamentos internos claros y precisos, comunicados oficiales, reuniones de coordinación y mantenimiento de la cohesión del equipo.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            <span class="skill-pct">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVERS -->
+  <section class="servers" id="servers">
+    <div class="container">
+      <p class="eyebrow-sm center">Historial</p>
+      <h2 class="section-title center">Experiencia en Servidores</h2>
+      <p class="section-sub">Trayectoria completa en proyectos Minecraft — desde roles operativos hasta posiciones de liderazgo máximo</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Todos <span id="count-all" class="fc"></span></button>
+        <button class="filter-btn" data-filter="active">Activos <span id="count-active" class="fc"></span></button>
+        <button class="filter-btn" data-filter="retired">Retirados <span id="count-retired" class="fc"></span></button>
+      </div>
+      <div class="servers-grid" id="servers-grid"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <p class="eyebrow-sm center">En números</p>
+      <h2 class="section-title center">Estadísticas de Carrera</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-ico">🏆</div>
+          <div class="stat-num" data-target="11">0</div>
+          <div class="stat-lbl">Servidores participados</div>
+          <p class="stat-desc">Proyectos de la comunidad hispanohablante de Minecraft en los que tuve un rol activo de staff</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-ico">✅</div>
+          <div class="stat-num" data-target="2">0</div>
+          <div class="stat-lbl">Proyectos activos</div>
+          <p class="stat-desc">Actualmente activo en Minenight como Operador y en Chowbox como Owner</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-ico">👑</div>
+          <div class="stat-num" data-target="3">0</div>
+          <div class="stat-lbl">Veces como Owner</div>
+          <p class="stat-desc">Roles de Owner o co-fundador en proyectos propios o de alta confianza</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-ico">📌</div>
+          <div class="stat-num" data-target="5">0</div>
+          <div class="stat-lbl">Roles de alto mando</div>
+          <p class="stat-desc">Posiciones de Manager, Coordinador o superiores en distintos servidores</p>
+        </div>
+      </div>
+
+      <div class="career-timeline">
+        <h3 class="tl-title">Progresión de Carrera</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-role">Soporte / Trial Moderador</span>
+              <p>Inicio en el mundo del staff. Aprendizaje de protocolos, atención directa al jugador, manejo básico de sanciones y comprensión del funcionamiento interno de un servidor desde las bases.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-role">Operador / Moderador</span>
+              <p>Consolidación de habilidades de moderación. Mayor autonomía en decisiones disciplinarias, supervisión activa de jugadores y apoyo al equipo de administración en tareas técnicas y organizativas.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-role">Manager / H-Manager</span>
+              <p>Ascenso a posiciones de gestión intermedia. Liderazgo de equipos, diseño de procesos internos, selección y capacitación de nuevo staff, y coordinación directa con la alta administración del servidor.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot active"></div>
+            <div class="tl-body">
+              <span class="tl-role active-role">Coordinador / Owner ⭐</span>
+              <p>Máximo nivel de responsabilidad. Visión global del servidor, toma de decisiones estratégicas y operativas, representación pública de la comunidad y gestión integral del proyecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="eyebrow-sm center">Hablemos</p>
+      <h2 class="section-title center">Contacto</h2>
+      <p class="section-sub">¿Buscas un Coordinador o Manager para tu servidor? Estoy disponible para escuchar propuestas serias.</p>
+      <div class="contact-layout">
+        <div class="contact-left">
+          <h3 class="contact-heading">¿Por qué contactarme?</h3>
+          <ul class="reasons">
+            <li>
+              <span class="r-ico">🎮</span>
+              <div>
+                <strong>Proyectos nuevos</strong>
+                <p>Si estás formando un servidor y necesitas a alguien con experiencia para liderar el equipo de staff desde cero y con estructura sólida.</p>
+              </div>
+            </li>
+            <li>
+              <span class="r-ico">🔧</span>
+              <div>
+                <strong>Reestructuración de staff</strong>
+                <p>Si tu servidor ya existe pero necesitas reorganizar o mejorar la estructura del equipo, sus procesos internos o la dinámica de trabajo.</p>
+              </div>
+            </li>
+            <li>
+              <span class="r-ico">📊</span>
+              <div>
+                <strong>Consultoría de comunidades</strong>
+                <p>Si quieres consejos específicos sobre cómo gestionar, escalar o mejorar la calidad de tu comunidad Minecraft a largo plazo.</p>
+              </div>
+            </li>
+            <li>
+              <span class="r-ico">🤝</span>
+              <div>
+                <strong>Colaboraciones</strong>
+                <p>Si tienes una propuesta interesante y crees que podemos trabajar juntos en algún proyecto relacionado con la comunidad Minecraft.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-right">
+          <div class="contact-card-big">
+            <div class="ccb-header">
+              <img src="https://s.namemc.com/2d/skin/face.png?id=fdbacaa81518c101&scale=4" alt="Skin" class="ccb-skin" />
+              <div>
+                <div class="ccb-name">Raphian14</div>
+                <div class="ccb-role">Coordinador &amp; Manager</div>
+              </div>
+              <div class="ccb-online">● En línea</div>
+            </div>
+            <div class="ccb-body">
+              <p class="ccb-availability">✅ Disponible para nuevas propuestas</p>
+              <p class="ccb-desc">
+                Puedes contactarme directamente por Discord. Respondo en menos de 24 horas. Soy serio con mis compromisos y espero lo mismo del proyecto al que me uno. No acepto propuestas sin visión clara ni seriedad de equipo.
+              </p>
+              <div class="discord-row">
+                <div class="discord-ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" fill="currentColor" width="22" height="22">
+                    <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+                  </svg>
+                </div>
+                <div class="discord-info">
+                  <span class="discord-lbl">Discord</span>
+                  <span class="discord-uname">7miope</span>
+                </div>
+                <button class="copy-btn" id="copy-btn" onclick="copyDiscord()">Copiar</button>
+              </div>
+              <p class="ccb-note">* Busco proyectos con visión a largo plazo, equipo comprometido y liderazgo responsable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="https://s.namemc.com/2d/skin/face.png?id=fdbacaa81518c101&scale=4" alt="Skin" class="footer-skin" />
+        <div>
+          <div class="footer-name">Raphian14</div>
+          <div class="footer-sub">Coordinador &amp; Manager · Minecraft</div>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#servers">Experiencia</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <p class="footer-copy">© 2025 Raphian14 · Portfolio Minecraft · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
